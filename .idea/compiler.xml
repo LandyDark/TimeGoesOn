@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for yudao" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/3.3.1/spring-boot-configuration-processor-3.3.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/3.3.1/spring-boot-configuration-processor-3.3.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+        </processorPath>
+        <module name="yudao-spring-boot-starter-job" />
+        <module name="yudao-server" />
+        <module name="yudao-module-system-biz" />
+        <module name="yudao-spring-boot-starter-redis" />
+        <module name="yudao-spring-boot-starter-mybatis" />
+        <module name="yudao-module-product-biz" />
+        <module name="yudao-spring-boot-starter-protection" />
+        <module name="yudao-module-member-api" />
+        <module name="yudao-spring-boot-starter-biz-tenant" />
+        <module name="yudao-spring-boot-starter-websocket" />
+        <module name="yudao-spring-boot-starter-biz-pay" />
+        <module name="yudao-module-statistics-api" />
+        <module name="yudao-module-member-biz" />
+        <module name="yudao-spring-boot-starter-mq" />
+        <module name="yudao-module-product-api" />
+        <module name="yudao-common" />
+        <module name="yudao-spring-boot-starter-excel" />
+        <module name="yudao-module-statistics-biz" />
+        <module name="yudao-module-promotion-api" />
+        <module name="yudao-module-promotion-biz" />
+        <module name="yudao-spring-boot-starter-test" />
+        <module name="yudao-spring-boot-starter-biz-data-permission" />
+        <module name="yudao-spring-boot-starter-security" />
+        <module name="yudao-module-trade-biz" />
+        <module name="yudao-spring-boot-starter-web" />
+        <module name="yudao-spring-boot-starter-biz-ip" />
+        <module name="yudao-module-infra-api" />
+        <module name="yudao-spring-boot-starter-monitor" />
+        <module name="yudao-module-trade-api" />
+        <module name="yudao-module-infra-biz" />
+        <module name="yudao-module-pay-api" />
+        <module name="yudao-module-system-api" />
+        <module name="yudao-module-pay-biz" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yudao-common" options="-parameters" />
+      <module name="yudao-module-infra-api" options="-parameters" />
+      <module name="yudao-module-infra-biz" options="-parameters" />
+      <module name="yudao-module-member-api" options="-parameters" />
+      <module name="yudao-module-member-biz" options="-parameters" />
+      <module name="yudao-module-pay-api" options="-parameters" />
+      <module name="yudao-module-pay-biz" options="-parameters" />
+      <module name="yudao-module-product-api" options="-parameters" />
+      <module name="yudao-module-product-biz" options="-parameters" />
+      <module name="yudao-module-promotion-api" options="-parameters" />
+      <module name="yudao-module-promotion-biz" options="-parameters" />
+      <module name="yudao-module-statistics-api" options="-parameters" />
+      <module name="yudao-module-statistics-biz" options="-parameters" />
+      <module name="yudao-module-system-api" options="-parameters" />
+      <module name="yudao-module-system-biz" options="-parameters" />
+      <module name="yudao-module-trade-api" options="-parameters" />
+      <module name="yudao-module-trade-biz" options="-parameters" />
+      <module name="yudao-server" options="-parameters" />
+      <module name="yudao-spring-boot-starter-biz-data-permission" options="-parameters" />
+      <module name="yudao-spring-boot-starter-biz-ip" options="-parameters" />
+      <module name="yudao-spring-boot-starter-biz-pay" options="-parameters" />
+      <module name="yudao-spring-boot-starter-biz-tenant" options="-parameters" />
+      <module name="yudao-spring-boot-starter-excel" options="-parameters" />
+      <module name="yudao-spring-boot-starter-job" options="-parameters" />
+      <module name="yudao-spring-boot-starter-monitor" options="-parameters" />
+      <module name="yudao-spring-boot-starter-mq" options="-parameters" />
+      <module name="yudao-spring-boot-starter-mybatis" options="-parameters" />
+      <module name="yudao-spring-boot-starter-protection" options="-parameters" />
+      <module name="yudao-spring-boot-starter-redis" options="-parameters" />
+      <module name="yudao-spring-boot-starter-security" options="-parameters" />
+      <module name="yudao-spring-boot-starter-test" options="-parameters" />
+      <module name="yudao-spring-boot-starter-web" options="-parameters" />
+      <module name="yudao-spring-boot-starter-websocket" options="-parameters" />
+    </option>
+  </component>
+</project>

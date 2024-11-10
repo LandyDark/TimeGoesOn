@@ -1,17 +1,17 @@
-package cn.iocoder.yudao.module.product.api.comment.dto;
-
-import lombok.Data;
+package cn.iocoder.yudao.module.product.api.patent.dto;
 
 import jakarta.validation.constraints.NotNull;
+import lombok.Data;
+
 import java.util.List;
 
 /**
- * 评论创建请求 DTO
+ * 专利维护请求 DTO
  *
- * @author HUIHUI
+ * @author Landy
  */
 @Data
-public class ProductCommentCreateReqDTO {
+public class PatentDTO {
 
     /**
      * 商品 SKU 编号
